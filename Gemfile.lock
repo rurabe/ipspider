@@ -72,6 +72,8 @@ GEM
     ntlm-http (0.1.1)
     pg (0.15.1)
     polyglot (0.3.3)
+    puma (1.6.3)
+      rack (~> 1.2)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -130,6 +132,7 @@ DEPENDENCIES
   jquery-rails
   mechanize
   pg
+  puma
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)
