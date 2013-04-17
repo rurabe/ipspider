@@ -34,4 +34,9 @@ Spider::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # Pusher
+  Pusher.app_id = '41951'
+  Pusher.key    = 'f9a66c6497100ceb385c'
+  Pusher.secret = 'd5546ca65642cef69192'
 end

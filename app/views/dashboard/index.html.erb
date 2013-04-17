@@ -1,0 +1,13 @@
+
+<div class="row pagination-centered">
+  <h1>IP Spider</h1>
+  <%= form_tag({:controller => 'tasks', :action => 'create'}, {:method => 'POST', :remote => true} ) do %>
+    <%= text_field_tag(:url, nil, :class => "search-box", :placeholder => "Enter a url...") %>
+    <%= hidden_field_tag(:channel, 5.times.map {("a".."z").to_a.sample}.join, :id => "channel" ) %>
+  <% end %>
+</div>
+<div class="row">
+  <ul id="tasks">
+
+  </ul>
+</div>

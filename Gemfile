@@ -6,11 +6,12 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'puma'
+gem 'thin'
 
 
 gem 'heroku-api'
 gem 'mechanize'
+gem 'pusher'
 
 
 # Gems used only for assets and not required
